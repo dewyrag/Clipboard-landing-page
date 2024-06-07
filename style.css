@@ -79,6 +79,12 @@ body {
     box-shadow: hsla(171, 66%, 44%, 0.8) 0px 12px 200px 0px;
 }
 
+.ios_download_btn:hover {
+    transform: translateY(2px);
+    background-color: hsla(171, 66%, 44%, 0.8);
+
+}
+
 .mac_download_btn {
     background-color: var(--light-blue);
     color: hsla(0, 0%, 100%, 0.8);
@@ -90,6 +96,12 @@ body {
     border-radius: 50px;
     cursor: pointer;
     box-shadow: hsla(249, 59%, 11%, 0.3) 0px 48px 100px 0px;
+}
+
+.mac_download_btn:hover {
+    transform: translateY(2px);
+    background-color: hsla(233, 100%, 69%, 0.8);
+
 }
 
 .image_computer {
@@ -241,6 +253,19 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    cursor: pointer;
+}
+
+.fa-square-facebook:hover {
+    color: var(--strong-cyan);
+}
+
+.fa-twitter:hover {
+    color: var(--strong-cyan);
+}
+
+.fa-instagram:hover {
+    color: var(--strong-cyan);
 }
 
 @media (min-width: 1440px) {
