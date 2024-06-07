@@ -1,0 +1,360 @@
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/bg-header-mobile.png) no-repeat;
+    background-size: 100%;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.sections {
+    text-align: center;
+}
+
+.text {
+    color: hsla(201, 11%, 66%, 0.7);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin: 0 auto;
+}
+
+.headings {
+    color: var(--dark-grayish-blue);
+    font-weight: 700;
+    font-size: 1.7em;
+    margin: 0 auto;
+}
+
+.first_section {
+    margin: 7rem auto 11rem auto;
+}
+
+.main_logo {
+    margin-bottom: 3.7rem;
+}
+
+.first_section>.headings {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.first_section>.text {
+    width: 87%;
+    margin-bottom: 3.4rem;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+    width: 310px;
+    margin: 0 auto;
+}
+
+.ios_download_btn {
+    background-color: var(--strong-cyan);
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-bottom: 3px solid hsl(171, 82%, 31%);
+    padding: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: hsla(171, 66%, 44%, 0.8) 0px 12px 200px 0px;
+}
+
+.mac_download_btn {
+    background-color: var(--light-blue);
+    color: hsla(0, 0%, 100%, 0.8);
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-bottom: 3px solid hsl(233, 45%, 46%);
+    padding: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: hsla(249, 59%, 11%, 0.3) 0px 48px 100px 0px;
+}
+
+.image_computer {
+    width: 80%;
+}
+
+.flex_container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.second_section {
+    margin: 3rem auto;
+}
+
+.second_section>.text {
+    color: hsla(201, 11%, 66%, 0.7);
+    font-weight: 600;
+    font-size: 1rem;
+    width: 85%;
+    line-height: 1.6rem;
+    margin: 0 auto;
+    margin-bottom: 3.4rem;
+}
+
+.second_section>.headings {
+    color: var(--dark-grayish-blue);
+    width: 90%;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.aside_text>.headings {
+    font-size: 1.5rem;
+    margin-bottom: .8rem;
+}
+
+.aside_text>.text {
+    width: 90%;
+    margin-bottom: 2.5rem;
+}
+
+.image_devices {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    width: 90%;
+}
+
+.fourth_section {
+    margin-top: 12rem;
+}
+
+.fourth_section>.text {
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.fourth_section>.headings {
+    font-size: 1.7rem;
+    width: 80%;
+}
+
+.fifth_section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 5.5rem;
+}
+
+.flex_item>.headings {
+    font-size: 1.5rem;
+    margin: 1.5rem auto;
+}
+
+.flex_item>.text {
+    width: 90%;
+}
+
+.logo_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+
+    margin-top: 7rem;
+}
+
+.sixth_section {
+    margin-bottom: 10rem;
+}
+
+.seventh_section {
+    margin-bottom: 10rem;
+}
+
+.seventh_section>.headings {
+    font-size: 1.7rem;
+    margin: 2.5rem auto;
+    width: 80%;
+}
+
+.seventh_section>.text {
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+    width: 85%;
+}
+
+footer {
+    background-color: hsla(201, 11%, 66%, 0.1);
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer_logo {
+    width: 50px;
+    margin-bottom: 1rem;
+}
+
+.list_link {
+    text-decoration: none;
+}
+
+.list_item {
+    text-decoration: none;
+    color: hsla(210, 10%, 33%, 0.5);
+    font-weight: 700;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 2.5rem;
+}
+
+.list_item:hover,
+.list_item:active {
+    color: var(--strong-cyan);
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+    body {
+        background: url(images/bg-header-desktop.png) no-repeat;
+        background-size: 100%;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+    }
+
+    .ios_download_btn {
+        padding: 1rem 3rem;
+    }
+
+    .mac_download_btn {
+        padding: 1rem 3rem;
+    }
+
+
+    .first_section>.text {
+        width: 40%;
+    }
+
+    .flex_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image_computer {
+        width: 730px;
+        margin-right: 6.5rem;
+    }
+
+    .second_section>.text {
+        width: 45%;
+    }
+
+    .aside_text>.text {
+        width: 380px;
+        margin-bottom: 2.5rem;
+        text-align: left;
+    }
+
+    .aside_text>.headings {
+        width: 100%;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    .fourth_section>.text {
+        width: 45%;
+        margin-top: 1rem;
+    }
+
+    .image_devices {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        width: 850px;
+    }
+
+    .fifth_section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex_item>.text {
+        width: 375px;
+    }
+
+    .logo_container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+
+        margin-top: 7rem;
+    }
+
+    .seventh_section>.text {
+        width: 670px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    .footer_list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3rem;
+
+        width: 400px;
+        margin-bottom: 1.5rem;
+        margin-right: 10rem;
+    }
+
+    .footer_logo {
+        width: 50px;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+    }
+}
